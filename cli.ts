@@ -12,7 +12,7 @@ program
   .description('Run demos from a directory');
 program
   .option('-p, --path <path>', 'find demos in path', '.')
-  .option('-e, --engine <engine>', 'engine source file', './src/defaultEngine');
+  .option('-e, --engine <engine>', 'engine source file', './dist/defaultEngine');
 program.parse(process.argv)
 const options = program.opts();
 
