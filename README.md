@@ -1,6 +1,6 @@
 # DemoScript
 
-DemoScript is a simple tool to demo your TypeScript code. It allows you to create interactive demos in your project, provides a menu to select and run demos, and supports asking questions and displaying messages in the console. It uses [terminal-kit](https://www.npmjs.com/package/terminal-kit) module and exports it's `terminal` as part of this library, so you can use it to create more complex interfaces if needed.
+This package allows you to create interactive demos for your projects. It automatically finds all demos and provides a menu to run them. You can ask user for input, show messages, and more.
 
 ## Installation
 
