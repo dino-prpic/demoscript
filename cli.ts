@@ -1,9 +1,8 @@
 #!/usr/bin/env -S ts-node
 
-
 import { Command } from 'commander';
-import { Demo, DemoGroup, group } from './src'; // TODO replace './src' with '.'
-import EngineInterface from './src/engineTypes';
+import { Demo, DemoGroup, group } from './dist';
+import EngineInterface from './dist/engineTypes';
 import path from 'path';
 import fs from 'fs';
 
