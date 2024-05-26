@@ -1,4 +1,4 @@
-import { DemoGroup, Demo } from '..';
+import { DemoGroup, Demo } from '.';
 
 export default interface EngineInterface {
   init: (main: DemoGroup) => Promise<void>;

@@ -18,7 +18,7 @@ npm install demoscript -D
   "scripts": {
     "demo": "demoscript"
     // or
-    "demo": "demoscript src/demos"
+    "demo": "demoscript --path src/demos"
   }
 }
 ```

@@ -1,14 +1,14 @@
 {
   "name": "demoscript",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The simplest way to demo your TS code",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
     "lint": "tsc",
-    "build": "tsup src/index.ts src/engine/index.ts --dts --minify --format cjs,esm --out-dir dist",
-    "demo": "ts-node cli.ts --engine ./src/defaultEngine"
+    "build": "tsup src/index.ts src/defaultEngine/index.ts src/engineTypes.ts --dts --minify --format cjs,esm --out-dir dist",
+    "demo": "ts-node cli.ts"
   },
   "bin": {
     "demoscript": "cli.ts"
